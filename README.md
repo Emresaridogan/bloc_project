@@ -3,10 +3,8 @@
 ## SpaceX Latest Launch one page mobile application with bloc 
 
 Null Data | Non Null Data 
---------- | ------------
-
-![Null Data](https://github.com/Emresaridogan/bloc_project/blob/main/img/nullData.jpeg)| ![Non Null Data](https://github.com/Emresaridogan/bloc_project/blob/main/img/Data.jpeg)
-
+ --------------| ----------- 
+![Null Data](https://github.com/Emresaridogan/bloc_project/blob/main/img/nullData.jpeg)| ![Non Null Data](https://github.com/Emresaridogan/bloc_project/blob/main/img/Data.jpeg) | 
 
 ### Features :point_down:
 
