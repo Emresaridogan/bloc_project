@@ -1,11 +1,11 @@
-# bloc_project :call_me_hand
+# bloc_project :call_me_hand:
 
 ## SpaceX Latest Launch one page mobile application with bloc 
 
 Null Data | Non Null Data 
 --------- | ------------
 
-![Null Data](https://github.com/Emresaridogan/bloc_project/blob/main/app/img/nullData.jpeg)| ![Non Null Data](https://github.com/Emresaridogan/bloc_project/blob/main/app/img/Data.jpeg)
+![Null Data](https://github.com/Emresaridogan/bloc_project/blob/main/img/nullData.jpeg)| ![Non Null Data](https://github.com/Emresaridogan/bloc_project/blob/main/img/Data.jpeg)
 
 
 ### Features :point_down:
