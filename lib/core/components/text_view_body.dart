@@ -1,6 +1,6 @@
-import 'package:bloc_project/constants/app_constants.dart';
-import 'package:bloc_project/constants/color_constants.dart';
-import 'package:bloc_project/constants/padding_constants.dart';
+import 'package:bloc_project/core/constants/app_constants.dart';
+import 'package:bloc_project/core/constants/color_constants.dart';
+import 'package:bloc_project/core/constants/padding_constants.dart';
 import 'package:flutter/material.dart';
 
 class TextViewBody extends StatefulWidget {
@@ -20,7 +20,7 @@ class _TextViewBodyState extends State<TextViewBody> {
       child: Container(
         width: MediaQuery.of(context).size.width,
         alignment: Alignment.centerLeft,
-        decoration: BoxDecoration(
+        decoration: const BoxDecoration(
           color: ColorConstants.secondColor,
         ),
         child: Padding(

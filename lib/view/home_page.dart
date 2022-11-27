@@ -1,15 +1,15 @@
-import 'package:bloc_project/components/text_view_headline.dart';
-import 'package:bloc_project/constants/app_constants.dart';
-import 'package:bloc_project/constants/color_constants.dart';
-import 'package:bloc_project/constants/message_constants.dart';
-import 'package:bloc_project/constants/padding_constants.dart';
+import 'package:bloc_project/core/components/text_view_headline.dart';
+import 'package:bloc_project/core/constants/app_constants.dart';
+import 'package:bloc_project/core/constants/color_constants.dart';
+import 'package:bloc_project/core/constants/message_constants.dart';
+import 'package:bloc_project/core/constants/padding_constants.dart';
 import 'package:bloc_project/services/api_service.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../bloc/launch_bloc.dart';
-import '../components/text_view_body.dart';
-import '../components/url_button.dart';
+import '../core/components/text_view_body.dart';
+import '../core/components/url_button.dart';
 import '../model/launches.dart';
 
 class HomePage extends StatefulWidget {
@@ -74,7 +74,10 @@ class _HomePageState extends State<HomePage> {
                 slivers: [
                   SliverToBoxAdapter(
                     child: SizedBox(
-                        height: MediaQuery.of(context).size.height,
+                        height: MediaQuery.of(context).size.height -
+                            PaddingConstants.lowPaddingSize -
+                            PaddingConstants.highPaddingSize -
+                            AppBar().preferredSize.height,
                         child: loadedState(launchList)),
                   )
                 ],

@@ -1,4 +1,4 @@
-import 'package:bloc_project/constants/app_constants.dart';
+import 'package:bloc_project/core/constants/app_constants.dart';
 
 class Patch {
   String? small;

@@ -1,4 +1,4 @@
-import 'package:bloc_project/constants/color_constants.dart';
+import 'package:bloc_project/core/constants/color_constants.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -19,7 +19,7 @@ class _UrlButtonState extends State<UrlButton> {
       return Expanded(
           flex: 4,
           child: Container(
-              decoration: BoxDecoration(
+              decoration: const BoxDecoration(
                 color: ColorConstants.primaryColor,
               ),
               child: TextButton(
@@ -28,7 +28,7 @@ class _UrlButtonState extends State<UrlButton> {
                   },
                   child: Text(
                     widget.title,
-                    style: TextStyle(color: ColorConstants.secondColor),
+                    style: const TextStyle(color: ColorConstants.secondColor),
                   ))));
     } else {
       return const Center();
